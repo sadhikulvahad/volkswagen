@@ -1,0 +1,897 @@
+body{
+    margin: 0;
+}
+.full{
+    width: 100%;
+}
+.shadow{
+    width: 100%;
+    height: 8rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 40%, rgba(0, 0, 0, 0));
+    position: absolute;
+    top: 0;
+}
+.image{
+    height: 40rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    z-index: 1;
+}
+.head1{
+    display: inline;
+    height: 4rem;
+    width: 25%;
+}
+.head{
+    display: inline;
+    align-items: center;
+    width: 70%;
+    height: 4rem;
+    color: white;
+}
+.align{ 
+    display: inline;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 75px;
+    width: 32px;
+    height: 32px;
+    padding-top: 18px;
+    cursor: pointer;
+}
+.menu{
+    display: inline;
+    -webkit-box-align: center;
+    align-items: center;
+    color: white;
+    font-family: vw-text, Helvetica, Arial, sans-serif;
+    padding-left: 9px;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.menu:hover{
+    color: rgb(54, 56, 197);
+}
+.align:hover{
+    color: blue;
+}
+.search{
+    width: 50px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+    float: right;
+    padding-top: 25px;
+    color: white;
+    padding-right: 90px;
+}
+.search:hover{
+    color: blue;
+}
+.logoline{
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+.taigun{
+    width: 100%;
+    height: 5rem;
+    float: left;
+}
+.know{
+    width: 25%;
+    height: 8rem;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 8rem;
+    float: left;
+    align-items: center;
+}
+.sport{
+    color: rgb(29, 29, 94);
+    font-size: 60px;
+    font-family:Helvetica, Arial, sans-serif;;
+    padding-left: 20px;
+    font-weight: 50px;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 58px;
+    background-color: rgb(29, 29, 94);
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: width 1s;
+    cursor: pointer;
+}
+.more:hover{
+    background-color: blue;
+}
+.volks{
+    width: 80px;
+    height: 80px;
+    padding-left: 27px;
+    border: 10px static rgb(172, 87, 87);
+}
+.hr{
+    margin-top: 10px;
+}
+.stay{
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    margin-top: 130px;
+    background-color: white;
+    z-index: 1;
+}
+.book{
+    float: right;
+    width: 15rem;
+    height: 60px;
+    background-color: aqua;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 0;
+    color: rgb( 29, 29, 94);
+    stroke: rgb(29, 29, 94);
+    transition: width 1s;
+}
+.book:hover{
+    background-color: blue;
+    color: white;
+    stroke: white;
+}
+.bookk{
+    float: right;
+    padding-right: 70px;
+    padding-top: 5px;
+}
+.GT{
+    width: 100%;
+    height: 50rem;
+    justify-content: center;
+    margin-top: 0rem;
+    font-size: 60px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    margin-top: 245px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(29, 29, 94);
+    font-size: larger;
+}
+.follow{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.link{
+    font-size: 20px;
+    padding-left: 475px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.video{
+    margin-left: 10rem;
+    margin-top: -420px;
+    cursor: pointer;
+}
+.plus{
+    width: 100%;
+}
+.blue{
+    width: 75%;
+    height: 40rem;
+    display: flex;
+    justify-content: right;
+    background-color: rgb(29, 29, 94);
+    margin-top: 10rem;
+    margin-left: 20rem;
+    color: white;
+}
+.embark{
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    color: white;
+    padding-right: 9rem;
+    line-height: 35px;
+}
+.journy{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    color: white;
+    padding-top: 35px;
+    padding-right: 18rem;
+    
+}
+.link1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 7px;
+}
+.black{
+    position: absolute;
+    top: 144rem;
+    margin-left: 13rem;
+    width: 52rem;
+    height: 32rem;
+    float: left;
+}
+.red{
+    position: absolute;
+    top: 181rem;
+    margin-left: 13rem;
+    width: 40rem;
+    height: 30rem;
+    float: left;
+}
+.vw{
+    position: absolute;
+    top: 181rem;
+    margin-left: 60rem;
+    width: 39rem;
+    height: 30rem;
+}
+.discr{
+    width: 100%;
+    margin-top: 28rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.discr1{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.discr2{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 35px;
+    padding-left: 5rem;
+}
+.disc{
+    font-size: 30px;
+    padding-right: 6rem;
+}
+.open{
+    position: absolute;
+    width: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 65rem;
+    margin-top: -465px;
+}
+.wind{
+    top: 175rem;
+    line-height:35px;
+    font-size: 22px;
+}
+.link2{
+   font-family: Arial, Helvetica, sans-serif; 
+}
+.your{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 120px;
+}
+.way{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: rgb(29, 29, 94);
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.butt{
+    width: 100%;
+    margin-top: 5rem;
+}
+.all{
+    width: 5rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid rgb(29, 29, 94);
+    display: inline;
+    float: left;
+    margin-left: 10rem;
+    cursor: pointer;
+    transition: width 1s;
+    color: rgb(29, 29, 94);
+    font-size: 14px;
+}
+.want{
+    width: 12rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid rgb(29, 29, 94);
+    display: inline;
+    float: left;
+    cursor: pointer;
+    transition: width 1s;
+    margin-left: 1rem;
+    color: rgb(29, 29, 94);
+    font-size: 14px;
+}
+.own{
+    width: 10rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid rgb(29, 29, 94);
+    display: inline;
+    float: left;
+    cursor: pointer;
+    transition: width 1s;
+    margin-left: 1rem;
+    color: rgb(29, 29, 94);
+    font-size: 14px;
+}
+.all:hover{
+    background-color: blue;
+    color: white;
+}
+.want:hover{
+    background-color: blue;
+    color: white;
+}
+.own:hover{
+    background-color: blue;
+    color: white;
+}
+.car3{
+    width: 100%;
+    float: left;
+}
+.drive{
+    width: 30rem;
+    height: 30rem;
+    float: left;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.show{
+    width: 30rem;
+    height: 30rem;
+    float: left;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.rep{
+    width: 30rem;
+    height: 30rem;
+    float: left;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.schedule{
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    margin-top: 36rem;
+}
+.test{
+    font-size: 30px;
+    color: rgb(29, 29, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10rem;
+}
+.dealer{
+    font-size: 30px;
+    color: rgb(29, 29, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12rem;
+}
+.serv{
+    font-size: 30px;
+    color: rgb(29, 29, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 11rem;
+}
+.cars{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.find{
+    margin-top: 15rem;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(29, 29, 94);
+}
+.butto1{
+    width: 5rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid rgb(29, 29, 94);
+    display: inline;
+    float: left;
+    margin-left: 10rem;
+    cursor: pointer;
+    transition: width 1s;
+    color: rgb(29, 29, 94);
+    font-size: 18px;
+}
+.butto2{
+    width: 7rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid rgb(29, 29, 94);
+    display: inline;
+    float: left;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: width 1s;
+    color: rgb(29, 29, 94);
+    font-size: 18px;
+}
+.butto3{
+    width: 6rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid rgb(29, 29, 94);
+    display: inline;
+    float: left;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: width 1s;
+    color: rgb(29, 29, 94);
+    font-size: 18px;
+}
+.butto4{
+    width: 8rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid rgb(29, 29, 94);
+    display: inline;
+    float: left;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: width 1s;
+    color: rgb(29, 29, 94);
+    font-size: 18px;
+}
+.butto1:hover{
+    background-color: blue;
+    color: white;
+}
+.butto2:hover{
+    background-color: blue;
+    color: white;
+}
+.butto3:hover{
+    background-color: blue;
+    color: white;
+}
+.butto4:hover{
+    background-color: blue;
+    color: white;
+}
+.tiguan{
+    width: 100%;
+    margin-top: 8rem;
+}
+.edge{
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    margin-top: 33rem;
+}
+.chrom{
+    font-size: 30px;
+    color: rgb(29, 29, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20rem;
+}
+.gungt{
+    font-size: 30px;
+    color: rgb(29, 29, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 18rem;
+}
+.box{
+    width: 100%;
+    height: 30rem;
+    background-color: rgb(28, 28, 110);
+    margin-top: 50rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.inboxx{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.booknow{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inbox{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    align-items: center;
+    margin-top: 8rem;
+}
+.now{
+    position: absolute;
+    width: 12rem;
+    height: 4rem;
+    background-color: white;
+    color: rgb(29, 29, 94);
+    font-size: 20px;
+    margin-top: 10rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: width 1s;
+    border: 0;
+}
+.now:hover{
+    background-color: aqua;
+}
+.service{
+    width: 100%;
+}
+.servi{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb( 29, 29, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 66px;
+    margin-top: 7rem;
+}
+.vid{
+    width: 100%;
+}
+.vid1{
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ser{
+    width:40rem;
+    margin-top: 8rem;
+    cursor: pointer;
+}
+.vid2{
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    color: rgb(29, 29, 94);
+    margin-top: 8rem;
+    padding-right: 10rem;
+}
+.safety{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb( 29, 29, 94);
+    line-height: 30px;
+}
+.service4{
+    width: 100%;
+    float: left;
+}
+.year{
+    width: 30rem;
+    height: 18rem;
+    float: left;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    object-fit: cover;
+}
+.cycle{
+    width: 30rem;
+    height: 18rem;
+    margin-top: 4rem;
+    float: left;
+    margin-left: 3rem;
+    object-fit: cover;
+}
+.park{
+    width: 30rem;
+    height: 18rem;
+    margin-top: 4rem;
+    float: left;
+    margin-left: 3rem;
+    object-fit: cover;
+}
+.advantage{
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    margin-top: 54rem;
+}
+.benifit{
+    font-size: 35px;
+    color: rgb(29, 29, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10rem;
+}
+.adva{
+    font-size: 35px;
+    color: rgb(29, 29, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 13rem;
+}
+.offer{
+    font-size: 35px;
+    color: rgb(29, 29, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12rem;
+}
+.next{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: centere;
+}
+.steps{
+    display: flex;
+    justify-content: center;
+    align-content: centere;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 50px;
+    margin-top: 10rem;
+    font-weight: bolder;
+    color: rgb(16, 16, 48);
+}
+.icons{
+    width: 100%;
+}
+.tick{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.navy{
+    width: 27rem;
+    height: 30rem;
+    background-color: #2fa0b1;
+    margin-top: 12rem;
+    margin-left: 6rem;
+    cursor: pointer;
+}
+.caricon{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-left: 90px;
+    padding-top: 75px;
+    transition: width 1s;
+    cursor: pointer;
+}
+.caricon:hover{
+    transform: scale(1.05);
+}
+.loca{
+    width: 27rem;
+    height: 23rem;
+    background-color: #2fa0b1;
+    margin-top: -30rem;
+    margin-left: 42rem;
+    cursor: pointer;
+}
+.usericon{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-left: 90px;
+    padding-top: 75px;
+    cursor: pointer;
+    transition: width 1s;
+}
+.usericon:hover{
+    transform: scale(1.05);
+}
+.tel{
+    width: 27rem;
+    height: 30rem;
+    background-color: #2fa0b1;
+    margin-top: -23rem;
+    margin-left: 75rem;
+    cursor: pointer;
+}
+.telicon{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-left: 90px;
+    padding-top: 75px;
+    transition: width 1s;
+    cursor: pointer;
+}
+.telicon:hover{
+    transform: scale(1.05);
+}
+.phone{
+    width: 35%;
+}
+.cust{
+    width: 30%;
+}
+.navybook{
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 11rem;
+    position: absolute;
+    color: rgb( 29, 29, 94);
+    cursor: pointer;
+}
+.telus{
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 11rem;
+    position: absolute;
+    color: rgb( 29, 29, 94);
+    cursor: pointer;
+}
+.locadealer{
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    position: absolute;
+    color: rgb( 29, 29, 94);
+    cursor: pointer;
+}
+.disclaimer{
+    width: 100%;
+}
+.discl{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb( 29, 29, 94);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 12rem;
+}
+.terms{
+    color: rgb( 29, 29, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30rem;
+    font-size: 20px;
+}
+footer{
+    width: 100%;
+}
+.foot1{
+    width: 50%;
+}
+.foot1-1{
+    position: absolute;
+    cursor: pointer;
+    padding-top: 10rem;
+    margin-left: 14rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb( 29, 29, 94);
+}
+.foot1-2{
+    position: absolute;
+    padding-top: 12rem;
+    padding-left: 14rem;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb( 29, 29, 94);
+}
+.foot1-3{
+    position: absolute;
+    padding-top: 12rem;
+    padding-left: 23rem;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb( 29, 29, 94);
+}
+.foot1-4{
+    position: absolute;
+    padding-top: 12rem;
+    padding-left: 36rem;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb( 29, 29, 94);
+}
+.foot1-5{
+    position: absolute;
+    padding-top: 12rem;
+    padding-left: 41rem;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb( 29, 29, 94);
+}
+.foot1-1:hover{
+    color: blue;
+}
+.foot1-2:hover{
+    color: blue;
+}
+.foot1-3:hover{
+    color: blue;
+}
+.foot1-4:hover{
+    color: blue;
+}
+.foot1-5:hover{
+    color: blue;
+}
+.foot2{
+    width: 50%;
+}
+.foot2-1{
+    position: absolute;
+    cursor: pointer;
+    margin-top: -15rem;
+    margin-left: 94rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb( 29, 29, 94);
+}
+.end{
+    position: absolute;
+    width: 100%;
+    height: 10rem;
+}

@@ -1,0 +1,1 @@
+Bootstrapper.bindImmediate(function(){var a=window.Bootstrapper;a.adobe_analytics=a.adobe_analytics||{};a.adobe_analytics.s=a.adobe_analytics.s||{};a.adobe_analytics.s.events=a.adobe_analytics.s.events||[];a.adobe_analytics.s.events.push=function(){arguments[0]()}},4025070,765834,24);
